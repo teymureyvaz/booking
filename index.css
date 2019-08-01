@@ -1,0 +1,286 @@
+
+@font-face {
+  font-family: 'Averta';
+  src: url('fonts/Averta.otf'); /* IE9 Compat Modes */
+      
+}
+@font-face {
+  font-family: 'AvertaExtra ';
+  src: url('fonts/AvertaExtraBold.otf'); /* IE9 Compat Modes */
+      
+}
+
+.header {
+
+    position: relative;
+
+    color: #fff;
+
+    width: 100%;
+
+    height: 400px;
+
+}
+
+ 
+
+.header:before {
+
+    top: 0;
+
+    z-index: -2;
+
+    position: absolute;
+
+    content: '';
+
+    width: 100%;
+
+    height: 400px;
+
+    background-color: black;
+
+}
+
+ 
+
+.header:after {
+
+    top: 0;
+
+    z-index: -1;
+
+    position: absolute;
+
+    content: '';
+
+    width: 100%;
+
+    height: 400px;
+
+    background: url('./images/car-logos-pattern-full.svg') black;
+
+    opacity: 0.5;
+
+    background-size: cover;
+
+    display: block;
+ filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+ 
+
+.navbar-content {
+
+    display: block;
+
+    padding-top: 10%;
+
+}
+
+body{
+	margin: 0%;
+	padding: 0%;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+/*.modal-content{
+	width: 160%!important; 
+	right: 20%!important;
+	margin-top: 30%!important;
+}*/
+.masin{
+	font-size: 500%!important;
+	color: #3939d0;
+}
+.form{
+	border-radius: 5px!important;
+	background-color: #f2f5f9!important;
+}
+.top_card{
+	padding: 10px; height: 230px; width: auto
+}
+.icon_image{
+	height: 55px; width: 70px;
+}
+@media (min-width: 962px){
+	/*.contacars {
+	     max-width: 1200px!important;
+	}*/
+	#elaqe_vasite{
+		
+	    padding-left: 42%!important;
+	}
+}
+
+/*@media (min-width: 768px){
+	
+	#elaqe_vasite{
+		
+	    padding-left: 42%!important;
+	}
+}*/
+
+@media (min-width: 576px){
+	.contacars {
+	    width: auto!important;
+	}
+	.form_elaqe {
+		max-width: 27rem;
+	    left: 10%;
+	}
+}
+
+
+@media (min-width: 500px){
+	.form_elaqe {
+		width: 27rem;
+	    left: 10%;
+	}
+	#elaqe_vasite{
+		
+	    padding-left: 10%!important;
+	}
+}
+.form_elaqe{
+	 width: 27rem!important; 
+	 left: 6%!important;
+	 margin-bottom: 15px;
+}
+@media (min-width: 576px){
+	#elaqe_vasite{
+		
+	    padding-left: 42%!important;
+	}
+}
+
+
+.cardbutton{
+	background-color: #D1AC68!important;
+	color: #fff!important; 
+	border-radius: 10px!important;
+	border-color: #D1AC68!important;
+}
+
+.faicon{
+	color: #fff!important;
+}
+.divleft{
+	float: left; margin-left: 20%!important;
+}
+.divright{
+	float: right; margin-right: 25%!important;
+}
+.days{
+	 background-color: #68D17D;color: #fff;border-radius: 10px;width: 75%!important;height: 75%!important;
+}
+.small_a{
+	text-decoration: none!important;
+	color: gray!important;
+}
+
+.navbar-content{
+	display: block;
+	padding-top: 10%;
+
+}
+
+.navbar li{
+	padding-right: 50px;
+
+}
+.navbar a{
+color:white;
+font-size: 1.4em;
+font-family: "Averta" !important;
+
+}
+
+.navbar a:hover{
+	color:wheat;
+
+}
+
+.grid { 
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 20px;
+	align-items: stretch;
+	}
+  .grid > article {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+  .grid > article img {
+	max-width: 100%;
+  }
+  .text {
+	padding: 0 20px 20px;
+  }
+  .text > button {
+	background: gray;
+	border: 0;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	}
+
+
+
+	.cars{
+		width: 70%;
+	}
+.ourcars a:hover {
+	color: #e8b34e;
+}
+.card{
+	border-radius: 10px!important;
+	font-family: "Averta";
+}
+.elaqe h4 b{
+	color: #19367b;
+}	
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+background-color: #f53737;
+    color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.card_car{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#toggle-icon{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	-webkit-transition: -webkit-transform .5s ease-in-out;
+	transition:         transform .5s ease-in-out;
+}
+
+#toggle-icon:hover{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+}
